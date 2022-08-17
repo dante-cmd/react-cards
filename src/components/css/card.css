@@ -1,0 +1,126 @@
+.product-card {
+  height: 380px;
+  width: 220px;
+  border-radius: 1em;
+  padding: 1.5em;
+  box-shadow: 0 0.7px 9px rgba(0, 0, 0, 0.2);
+  background-color: rgb(236, 239, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product-card .logo-card {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px;
+}
+.product-card .logo-card .bx {
+  font-size: 25px;
+  color: #707070;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+.product-card .logo-card .bx:hover {
+  color: #333;
+}
+.product-card .main-images {
+  flex: 2;
+}
+.product-card .main-images .pics {
+  width: 100%;
+  object-fit: cover;
+  transform: rotate(0deg);
+  transition: opacity 0.15s ease-in-out;
+}
+.product-card .shoes-details {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.product-card .shoes-details .shoes-name {
+  font-size: 10px;
+  color: #161616;
+  font-weight: 500;
+}
+.product-card .shoes-details span {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  text-align: justify;
+}
+.product-card .shoes-details .stars i {
+  font-size: 10px;
+}
+.product-card .shoes-details .color-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-card .shoes-details .color-price .color-option {
+  display: flex;
+  align-items: center;
+}
+.product-card .shoes-details .color-price .color-option .color {
+  font-size: 10px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 8px;
+}
+.product-card .shoes-details .color-price .color-option .circles {
+  display: flex;
+}
+.product-card .shoes-details .color-price .color-option .circles .circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #000000;
+  margin: 2px;
+  cursor: pointer;
+  transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.product-card .shoes-details .color-price .price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 11px;
+}
+.product-card .shoes-details .color-price .price .price-current {
+  font-size: 11px;
+  text-decoration: line-through;
+  margin: 2px;
+}
+.product-card .shoes-details .color-price .price .price-sale {
+  font-size: 11px;
+  color: rgb(209, 73, 73);
+  margin: 2px;
+}
+.product-card .buttom {
+  flex: 0.1;
+}
+.product-card .buttom input {
+  background-color: rgb(94, 94, 94);
+  height: 100%;
+  width: 100%;
+  border-radius: 5em;
+  border: 0px;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.product-card .buttom input:hover {
+  background-color: rgb(68, 68, 68);
+  box-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.2);
+}
+.product-card .buttom input:active {
+  background-color: rgba(68, 68, 68, 0.6);
+}
+
+/*# sourceMappingURL=card.css.map */
